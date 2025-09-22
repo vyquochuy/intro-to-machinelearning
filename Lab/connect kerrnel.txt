@@ -1,0 +1,12 @@
+Trong WSL, kích hoạt môi trường ml-env:
+
+
+conda activate ml-env
+jupyter notebook --no-browser --port=8888
+Bạn sẽ thấy dòng kiểu:
+
+
+http://localhost:8888/?token=abc123...
+Copy toàn bộ URL đó → dán vào ô trong VS Code → Enter
+
+✅ Lúc này VS Code sẽ kết nối được với Jupyter server chạy bên WSL.
